@@ -1,0 +1,872 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CrQCJQEAAHvj7eeMzXK8TYRiJOQHX1c-AYJQ4Cpr_Z9FnP2xlRNVnWu_PLD6PnEXCfWnE4RfAmQhu1WdHQJoQ7Zv7aOCOyfr7WxiWkVg-mKdx5BQgjOM-DiAfUho5D1xlhEcLlJhwrDBHDmWTBR5HCOaPqqYL1kVVZ7zkEeIfdfhpshQEdqUgkwb7ijejEKSNsDvIwAytd02S3LQuketP-B3EuArvy8cZkmgAZg_mkJeZhdW8GHjb0x3NV1-ZNynCn7q95tqJVIOTB6-ZEXKRtlTrLgu90k3TJbVhB7CrXNogZIRpW9UkEqSBZHvJg7Ixc665MG5urdP5gzeXNhC6ZBxtinEJv9mbHqZE0QoGaLL9U48OX70wySybTHH36tujRudM3K9Z0iR6hR4G5oMz5uEa6tjF8YSEAo5NpveWiUkGmJs5HetnJIaFEPhOFDr7-QvtWZgu7fFU1uso96O",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8135092,
+               "lng" : -50.59715860000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.81216021970849,
+                  "lng" : -50.5958096197085
+               },
+               "southwest" : {
+                  "lat" : -17.8148581802915,
+                  "lng" : -50.5985075802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "95c993dcc3689dd05ab5e76d5f02361e98fba9f7",
+         "name" : "Charanga Lanches",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1920,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106125379567761013696/photos\"\u003eAnderson Da Silva Alves Anderson\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAZJ-YIacp0J6fH2MKqETl5Q6osMX824Skp4w3A-vXE2hbTZ9nmE8BFWymZcBPoemtIIEaOQqaU7mLb-U5pWqwvqL98UefhttUdS1TR8tUYMkOn2dDF28lbzOJ8JOv6nA7EhCDNyKijgZefP7prEr_1I0zGhTomIBIH0t5Vrgvk06WJnZv0K-SLQ",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJjS_AvykqYJMROHTEzQ-TyE0",
+         "plus_code" : {
+            "compound_code" : "5CP3+H4 Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CP3+H4"
+         },
+         "rating" : 4.6,
+         "reference" : "CmRRAAAAEG1Vgboz4iIihRJ3r_QuCoK5w2e9EHlrkTvL-67aDkrTLFk2eIPC5A0k3fVYHGzicSZZv27omQD6wd8-C6Zfop05QHt-mWbMnY8nnej7rSeScninLrAw9_uruskPHfVJEhBSftaSzYj-04gbgoIdrxKSGhSOhRQ3ag_cJx307DlyRObZaBMlbw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Praça Dr. Ludovico Teixeira, s/n - Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8129298,
+               "lng" : -50.5991554
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.8115808197085,
+                  "lng" : -50.5978064197085
+               },
+               "southwest" : {
+                  "lat" : -17.8142787802915,
+                  "lng" : -50.6005043802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "897b6edcd94f5f9fcc0b693d44b56c97f3551415",
+         "name" : "Subway Santa Helena",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 741,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104526066835754641169/photos\"\u003eLorena Parreira\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAGq-EcJdd_0vAABmSFg-N1Sn2OrOIq-lagZ_AVcWhdeNK6CQa_on6mhJcZhbNxF_Ul7boJ203WDN4U0qdftO6YTomOQvDdQtNVotvZtWholeqcDnU1YSwH6WDXxH_BM4qEhAWRrQ-BbOCn0VIg1kSn5WVGhQDfsdPHQq7w0MS9LotGxTuICb-UA",
+               "width" : 750
+            }
+         ],
+         "place_id" : "ChIJRxbufikqYJMRQ46uTMumkI8",
+         "plus_code" : {
+            "compound_code" : "5CP2+R8 Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CP2+R8"
+         },
+         "price_level" : 1,
+         "rating" : 4.6,
+         "reference" : "CmRSAAAAvhBzxGEesazjqmXo7NNdoSwUl0o7l4b0wgy-ZwZY6Tv_eYcfiZOF5K2tMrIwsMFr4kJibNWSPVg7uVLXZBCUgdKM59sgEg2K_a4e65F1IjtCJtXzUplyvVsqF8BFu5DGEhCeDMvVXndyqo9ypGWfL6D4GhT6P659sp_8gWN65-3aTqobq0VfZw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "R. Paulo Lopes, 587 - Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8103359,
+               "lng" : -50.5982914
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.8089784197085,
+                  "lng" : -50.5969301697085
+               },
+               "southwest" : {
+                  "lat" : -17.8116763802915,
+                  "lng" : -50.5996281302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "ce6c80c0d3eb9df1f0c8e74ee54e51f551ce32e5",
+         "name" : "Panificadora Empório Inkasa",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111101083913888410024/photos\"\u003eInkasa Pães e Pizzas\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAHZGqXS3JmBI9dr5-MN_NUi37L99RQiMFbj7vLfsGEd5-JETE_pPJlWrZODZAGH4Ecz1zsxuSAbF7zdVhGCtIG6IueP1-Bxk3iZM44WvRX4xdX8byXa8rKDScVTsjBwjXEhBJDZce_9NhdYr7dSWMm5u9GhTU50kDXf-9ps98xYxD6izyGUhLLw",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJyw3SpNMrYJMRT1SSYSPSh44",
+         "plus_code" : {
+            "compound_code" : "5CQ2+VM Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CQ2+VM"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAEs3gx_7DocIJaORrr7FlILb-GYlt32bG3Zp_W4j8MuAmPX41QKjPwpO76ur2o6d-j5IBIPWwqCc7gYpoomOY2GzHY2y5FOZYf94_NJSkhvqvR039DZm2OJpiYc5yvjL2EhDEieCHHQ0t3ch7YMYojcoeGhSfMrItTb1Nm3PIcc3d_Wl4Hv8dfw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Rua Custódio P Vencio, 451 - Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8137413,
+               "lng" : -50.59695989999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.8124241197085,
+                  "lng" : -50.5955863197085
+               },
+               "southwest" : {
+                  "lat" : -17.81512208029151,
+                  "lng" : -50.59828428029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "a7dcb5c71379fd48c045534a44e2f56d575ad28e",
+         "name" : "Pit-Dog Carrossel Lanches",
+         "photos" : [
+            {
+               "height" : 2560,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100682777990075826662/photos\"\u003emarcio ferreira\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAam_kFGjwdZFCByy1oPLFh6DXW-zNe08wgsOgamWKZXoVsNpzZI4WSXF_vA52xYNYQ0qsG6kr1OyNst11BKs9dJYSNcbvf8JIpMmt0_U_Zqd489mzzHgGdXqP3YUjaITsEhD17meeEaTLBrIF7vCd8NsfGhQG7eE7T_SgMcUF2pVp7yhdNetUrg",
+               "width" : 1440
+            }
+         ],
+         "place_id" : "ChIJc4tNsSkqYJMROx7YYBVcAPY",
+         "plus_code" : {
+            "compound_code" : "5CP3+G6 Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CP3+G6"
+         },
+         "rating" : 4.4,
+         "reference" : "CmRSAAAAK67uxmAGn1NHUrx6F87lpw8QuEaI-LT16WUnlrjwcxzvAQQaAIZBMpnVwXRPf6WMKHL_qkJ9vFu1wNiqUf0nGLnKLpPmZZHGFtOkI2Cs0mny_z8FXhKLHE6QBHwPG7e5EhDmFi9e2OYDUBJtJWhwVpMiGhQO4h5SXB8zuaMK1bcDpwf4JY7Z4w",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Teodomiro Rêgo, 1 - Setor Central, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8139005,
+               "lng" : -50.59717419999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.8125515197085,
+                  "lng" : -50.59582521970849
+               },
+               "southwest" : {
+                  "lat" : -17.8152494802915,
+                  "lng" : -50.59852318029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "3ca3bb177a4318f24eb48933420f9695b306a92d",
+         "name" : "Krep's Lanches",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 395,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108964139422996304994/photos\"\u003eAline Soares\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA0IlbH5XiLjwSP9jYaPzUeSiH6fhCJ94WMWbr9VkrMGdIgoDQoyumYzJ6hQEPRc6-wSgoY-xII-DsBQ6SuJryQtRl_38Q4eU91QTVDqvxfWxDuBDylvtpXgmB_IXVj_lbEhDvYoDiG0FWAjVXdmWhfygfGhT9BqUVqOMf6CvLQ0BnErSRQbIjQw",
+               "width" : 703
+            }
+         ],
+         "place_id" : "ChIJDdo1lCgqYJMRYIiNwDDPk0Q",
+         "plus_code" : {
+            "compound_code" : "5CP3+C4 Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CP3+C4"
+         },
+         "rating" : 1,
+         "reference" : "CmRRAAAAMSXMzc1UCOAI4kVP53QuTsaxUU7wKMDDwKKP5mVIte0-suEGiZkD98ZCqYQqjroK4cOJ7wiOiqPvq_AlOfomvdStmtNux7hpolpaAD1hGW6FJAEBnMvUGrap0vjJKs1zEhB_54QYWX3mv7KWwOd0bkOsGhRLnuo6PGZYGNgr-tDd7NHPLi7RTA",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Geraldo Martins Rosa, 406-514 - Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8140461,
+               "lng" : -50.5971815
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.8126892697085,
+                  "lng" : -50.5958385697085
+               },
+               "southwest" : {
+                  "lat" : -17.8153872302915,
+                  "lng" : -50.5985365302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "cafa6129cc441a49bd755b6c73f3d4a036eb0fb7",
+         "name" : "Kreps Lanches",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 395,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108964139422996304994/photos\"\u003eAline Soares\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAABJJOwnwpoA9FZ6bLiCdaJP1FDBVTRFCoXnETIyt1SMERJlvj171wLXFcnA0AK2F1rzlE0lCrOFmhH6MQdwj-LUtt7R_Kfx2HtoMmn5z9VNmLixNg9hCQj2KXZbhfXbiSEhB_km0iXcuSGDzkLvwuWflSGhT7fR5ehjcUccIP4GQpz_KRMrZfVA",
+               "width" : 703
+            }
+         ],
+         "place_id" : "ChIJ-f-PzykqYJMRHQVoumdeqF0",
+         "plus_code" : {
+            "compound_code" : "5CP3+94 Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CP3+94"
+         },
+         "rating" : 5,
+         "reference" : "CmRRAAAAOXbXAhYJH_3mxwlfuPt8lAYcqO4LTjI-RbUOYT1MuMl_IjungsLmedObCbdW4p9o5RURGi1AbqErOS1A9Nz8fSGwrSr8UyqulvL_YRTrOSrx4QyAb5hp1UoMP6SRoFTIEhD5Ije8W__O5WfDgceIQN1cGhQ-tBWPOoY_Y3eTXKHEOfmpus8XxA",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Teodomiro Rêgo, 265 - Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8142534,
+               "lng" : -50.59755000000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.8126562197085,
+                  "lng" : -50.59584726970851
+               },
+               "southwest" : {
+                  "lat" : -17.8153541802915,
+                  "lng" : -50.5985452302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "e71bcb54b8357e2bb5af1551df46d750caca8b2c",
+         "name" : "Cantinho Do Pastel",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105431787627115591805/photos\"\u003eivaniel santos lucas\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAgUuRbFpW6-KW2Y6xuID7nRv_JRnbxQRa9VwiKnEicka8xn6Bd86hNmIpmr6sL5wsBg3ttjG3eWxtcwlu1snEUcz463g5BFhn_AiUlDhO60ygqKssZQ2FOyxhu1AhSlhsEhDQUt2-Or9GgH2qGwipKSX1GhRmBn8KUAhBbiPIQf8aHYrc21QX8A",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJZ76qySkqYJMRMn1ILF6fobc",
+         "plus_code" : {
+            "compound_code" : "5CP2+7X Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CP2+7X"
+         },
+         "reference" : "CmRSAAAA3lz5YAQZcGz8KR141ExEwvpj9rLDV4KgTny5FZJtGbU7JZjflg24pKz9Od7XPrNi8jJiLtfPsbuAZmIh4Zj6bRh8am1BXvoWWnCQsSDPj4NaMeVaw0NXkUab9DhDP9qREhDgeBYDHvWKTfxTdarrKEURGhRLVSVgXUODWClVWV7zPW3szBQiEg",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Eduvaldo Veloso do Carmo, N. 775 - Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8128658,
+               "lng" : -50.5976949
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.8114744197085,
+                  "lng" : -50.5962864197085
+               },
+               "southwest" : {
+                  "lat" : -17.8141723802915,
+                  "lng" : -50.5989843802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "c92d6f79b6a848fc469b0e51478be12da4278537",
+         "name" : "Mister King Esfiharia",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 300,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106899683529627206915/photos\"\u003eMister King Esfiharia\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA7DD8Y6O7shABmCGGiqEhuB5M-SjQubVulgYnL8ahAZH-1S9DwNXJ4ncrUfI7lqDJJXPSIZ2IvuUpL6gYCcuSrYRqOufZpHTg9f3iAnEw6HMjMk67N97CWdxYq2qFeBThEhDPezjISrVTAX62pNEVvlP_GhQRtB6_hVPuFYGx7wPEeePw-3BZww",
+               "width" : 536
+            }
+         ],
+         "place_id" : "ChIJl2-y8ikqYJMRcse8ahtL5MM",
+         "plus_code" : {
+            "compound_code" : "5CP2+VW Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CP2+VW"
+         },
+         "rating" : 4.7,
+         "reference" : "CmRSAAAAHxhjsF-Chrb4bP8HBW2I9QTeNBYPw0oiHtU-5F1b8iEaZKT6BqJA7CFNNeo_JR9D5O8hGTTfIQmSm4GJnayAeEVIeDLUVIXXvfYHotltThKsKrkns5krg95ETtZr5azxEhBSkcdI0tB7E_lxywb7NQ52GhQoGzSyNz_MLu5D7kRpeXTcfhhtsw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "número 606, Rua Eduvaldo Veloso do Carmo - Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8144656,
+               "lng" : -50.59832249999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.81315691970849,
+                  "lng" : -50.5970333697085
+               },
+               "southwest" : {
+                  "lat" : -17.8158548802915,
+                  "lng" : -50.5997313302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "069f1b3c8f45b9a209ba6ce4d6cf782dfe382b3a",
+         "name" : "Willy's Batatas",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 720,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114932310300033858035/photos\"\u003eWilly&#39;s Batatas\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAquyBHZivENtL8ipYi7eLldp3MnH-Tj11IX7raLUTyUW5j0-cQoGUW36FP0WPrkeG9D4SnzWKhDtmAsMrMmeaUlb-q_iBSnEvvNSQBHsCJ3KWiFIsTKLF1xhOVbnWInQpEhDHIlrdMQzyHoGT3HIFo-DRGhRg2W_R--HWrqYsPkym9ZeJyUVOug",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJJ0XQsSkqYJMRHFUBwjx1fVk",
+         "plus_code" : {
+            "compound_code" : "5CP2+6M Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CP2+6M"
+         },
+         "reference" : "CmRRAAAAKH6unJOyfY5I5AJjyVTIS6NbnKTNqUpyWeGbvODfOCwsAyT-7k2wn0FJsSfZhET6ITrdvV3A7t4U-ZoF-Sl-IZmvOq10SwKzf118wEoET7DKXpjogHfp1RbWUj17wgmKEhAmABCDiJRaNGaxqPjjpSC4GhQxLoRrmDci3MmE_E9E23voypvOiA",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Rua José Antônio da Silveira Leão, 617 - Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.814418,
+               "lng" : -50.5984173
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.81306901970849,
+                  "lng" : -50.59706831970851
+               },
+               "southwest" : {
+                  "lat" : -17.8157669802915,
+                  "lng" : -50.5997662802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "145c3ae6ee15a4de4710d56a1941841abb7df4e5",
+         "name" : "Willy's Batatas",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100804121274549649616/photos\"\u003eWilly&#39;s Batatas\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAlrFoDXjm-C-O3UzeI5g4K47HTaV2IafQCJNTFyiqTBkeS7x0hpUw0Lxd_wE2om2tFer3gY5X6I_wGmPlI0iP07UkeiRa8cXoCjP6aZQMeqOxRuxRkjg7mJB82vVDg3RHEhCYXispkKwQYoxd9_MwrjvWGhQLQ7YEoTdGN2ZhJBSv5r-ps7-gZg",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJlwHGrykqYJMRsjeFlmGSVbk",
+         "plus_code" : {
+            "compound_code" : "5CP2+6J Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CP2+6J"
+         },
+         "rating" : 5,
+         "reference" : "CmRSAAAA1BltB1U1L8TJVDxeOt0R8Q0R9h_-0oelDfmDiFvYIXtYdUG8e3vLxDlM71buDg0NVlP89sutcA7hHwJcmEO0isS8-5C-LBsOHaqTsKM5uNIPvgJd7raXFck4co5lAWEuEhBo4wqNYOIvkDvKKefoFOclGhQnojvyXPw_8Yu4uXPPU7IM5SdpMA",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8140653,
+               "lng" : -50.5989031
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.81266846970849,
+                  "lng" : -50.5975909197085
+               },
+               "southwest" : {
+                  "lat" : -17.8153664302915,
+                  "lng" : -50.60028888029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "634db5a0f0158f9f14c8abcd6517446e26bda1d7",
+         "name" : "Tay Sushi",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2592,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118135957448420968762/photos\"\u003eJovan Carlos Cunha das Neves\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAPVqzPd3Zgw6vvbSxwlThHpCqKoRQB6TrNvYspLpMeo0M_GyUuv3gznHu1wswTI2AkelmVcWosRa299EaGrAQDH2d09odzTyfBvM0Aa51hOdFhW0baAZVORnJOq1CW5UgEhBhztmtCg1B5-v0fa3mkTcUGhRxoqQt6s3H2zL94WPcdIMwvcmBog",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJCwKzoCkqYJMRlLJAVP9IoVg",
+         "plus_code" : {
+            "compound_code" : "5CP2+9C Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CP2+9C"
+         },
+         "rating" : 4.6,
+         "reference" : "CmRRAAAADdQv6IIjp9gTR_mdDJV1eGy-sdjI2cSiwdgtYDIUUvw3QTxRqf31r9OdPdLlGlaLrrX2eQNayfMA6ClfWdZDs7IZL-WdaoSM6Y2n2r5G2T3jIG7Lhy2BKoIdpFmCDcmbEhD9Ivu73VaiQybZAYrn0oR0GhSmXBsFKlhrBjLPHoi7zzNhm9MYDw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Pedro Romualdo Cabral, 633 - Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.81291999999999,
+               "lng" : -50.5989355
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.8114851197085,
+                  "lng" : -50.59764921970851
+               },
+               "southwest" : {
+                  "lat" : -17.8141830802915,
+                  "lng" : -50.6003471802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "b3c6f7afe48ef3854a4757c036f83efa3772941b",
+         "name" : "Pizzaria La Pimenta",
+         "photos" : [
+            {
+               "height" : 2340,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104456438988589751696/photos\"\u003ePizzaria La Pimenta\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAGSAR9JhRtNHn9KEe5lAuVHoMt6NgHkRHkRUxqeS8ithfv-yLfhwmF2RW1KmVq0yZqCxk6Fc2Q6lwoENuPEtVvdGA01GDfvLV4ZBN3kj0UgvxPj2tceCaLnOMkQWo9FexEhBgr6pRVbtzLRxE4ohXG5HiGhSsEizIs75HEmDDb2bLVnKYZR8uXg",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJL9HOeIQpYJMRllBgyLB9ecM",
+         "plus_code" : {
+            "compound_code" : "5CP2+RC Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CP2+RC"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAcLa1ZFj_1plMbiJdvDRejlIUCO5RVCbQYgCMlc2QspmUxuES7rernMRFcOUShEbNj3NJ1COLzO-wFIDfQKVQrcS2eFVbe9HXdJ5knFqd-PkvH4aYDanfVBaurbe9UnRcEhCt2jWjbQVVF_6lp3jXuk5KGhRU2Gwyj68zV65zGYxLJ53h6nKiqw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Paulo Lopes, 567 - Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8148157,
+               "lng" : -50.5990312
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.81352571970849,
+                  "lng" : -50.59777691970849
+               },
+               "southwest" : {
+                  "lat" : -17.8162236802915,
+                  "lng" : -50.60047488029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "55ed97953075326706e1cbeea8ab988f76dbacd4",
+         "name" : "Panelinha do ALAN & CIDA",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3096,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106839196115319229481/photos\"\u003eRevista New Vips\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAp1Zv5ttv-zTXUzUBshAyuL5uvc2HP5aVa6TS5t35kDVNh7ZmmOO8_V0IrWhprTKiTC3Wr5omTqOwGKJne53ZX37VWezrNSrl-qAfjsnSiRD_l_r_s83gyzIRajvrVTEREhA4RsXykVw7fXoc3oF6vJZyGhR8gpwhoJGUjLD3WUiCA3JJVqYVUQ",
+               "width" : 4128
+            }
+         ],
+         "place_id" : "ChIJf4WjACkqYJMRcQRECQ2wU7E",
+         "plus_code" : {
+            "compound_code" : "5CP2+39 Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CP2+39"
+         },
+         "rating" : 5,
+         "reference" : "CmRSAAAAyVHmoI1T3Cv9c1JfGTyU9FnPFzurwHPEGaiILLfInqiwipJx6zF_l7Ol0dIISIooAGEtzd8rbRlyEFIPUNOTBX4abThz5FxHk0CVZKn0p85wycISXWAXxfYiJClA9rzJEhBdzri0bW8n8yR2wY3TmqVKGhSWlnUhX5fJ4ie77aHM7KavOW-XiQ",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Jacinto Ferreira de Souza, 441-549 - Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8119748,
+               "lng" : -50.5981252
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.81062581970849,
+                  "lng" : -50.5967762197085
+               },
+               "southwest" : {
+                  "lat" : -17.8133237802915,
+                  "lng" : -50.5994741802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "908c76334fe4707acf790db31a00299bccb4a189",
+         "name" : "Oficina Do Pastel",
+         "place_id" : "ChIJG9BcJCoqYJMRXf4aSS5W3w4",
+         "plus_code" : {
+            "compound_code" : "5CQ2+6P Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CQ2+6P"
+         },
+         "reference" : "CmRRAAAAkBXhf_zkJlh11-Isixzy0DZA0bkQUG4LQaa0tn4aQ2_5Vbu8bLUKOgm4yH1lfVuUz_ul07DOQB73nyw7L_qP3DG16NveuIPjH6ipeu77z-7hvNK1rNLo8-j9-vFrX3s7EhAQyYk86HdXQWoh8EFJjIdZGhTk1nYMnOA66L7xVnzOgKTA0up8HQ",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "foias, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.813345,
+               "lng" : -50.59925
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.8119960197085,
+                  "lng" : -50.5979010197085
+               },
+               "southwest" : {
+                  "lat" : -17.8146939802915,
+                  "lng" : -50.6005989802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "f08a1b17e00361dc3264b4a58857e13a9df218d7",
+         "name" : "Espetinho e Jantinha",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100338113046145605529/photos\"\u003eGND LOCAÇÃO E TRANSPORTES LTDA\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAq8ZZCidby1d0L8tnmxh8xGlPfkOrZbnzMkK1f5fvDJ1F4zbIur4k1_Lyw13BtW7u9uhqYmjFObQcP7EYa5qZ6G_p3GO8qRAMZjfEsMlOM-fTqo_H8sCWLPzsMcjdi4lpEhDk-6qsyyo2EkGfvEPSzBBUGhQt8hrkockmO_qR-oqjs15bVtTGmA",
+               "width" : 3120
+            }
+         ],
+         "place_id" : "ChIJd8xBdykqYJMRKvs66UC_f4Y",
+         "plus_code" : {
+            "compound_code" : "5CP2+M8 Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CP2+M8"
+         },
+         "rating" : 4.4,
+         "reference" : "CmRSAAAAa70lQqsMriAEuIPRt4dVMF-boWk3aG-4B40Z1vKaJrzw33vZMIjFsCx9iD9xhI8XqBRJlkpCerFGP3OLSN_RM0Er4yq2F9pPkJxBXApRlW47wtaS4GDFW70qmmNT8quYEhAfLfsqtdbwOxIAhtiSx5qWGhR-f0vwHUNcY3HshazNaNbEzF2ZiQ",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8117022,
+               "lng" : -50.5976083
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.8103532197085,
+                  "lng" : -50.59625931970849
+               },
+               "southwest" : {
+                  "lat" : -17.8130511802915,
+                  "lng" : -50.59895728029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "63d1fe4d2713ca64b0a476d9240a778954fd6206",
+         "name" : "Lanchonete e Restaurante da Rosi",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 592,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117093937025550455696/photos\"\u003ecarlos Manoel\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAApHPLvFqODzO-JMTgoNb12UPeUWrPkmK6dMQJXJ1XTaZLViczqhzU288C-pUuDIniO3An4Asq8Oc-UrXtTzHy6UaRWxmAS3d00FKZGGtpLd_r3Nh1MSVeiQJ1E3UMpP3NEhA_-4ynQRLjw0jppRnnXJgaGhS38IHxypbS8BJIKli0aln5Cd52xw",
+               "width" : 1064
+            }
+         ],
+         "place_id" : "ChIJHa88GCoqYJMRNHe__PskUS4",
+         "plus_code" : {
+            "compound_code" : "5CQ2+8X Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CQ2+8X"
+         },
+         "reference" : "CmRRAAAA-trEteQRcmagbiNlKqvbWGGBYlBtpZl4URcV96AJ5Yklz340PbqHG2O5D_oolH3W_QXGPnEPhc8iwVpLmEes3JZ18Srxf4lmURAmF5MPWIygO1jI0wNmrX379Mk-myfqEhBI1lnKf3K1SJC_VTHagdqyGhRUzcfyJwUlQKxGw247V_XTBBYJAA",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8127101,
+               "lng" : -50.5990032
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.8113869197085,
+                  "lng" : -50.5976353697085
+               },
+               "southwest" : {
+                  "lat" : -17.8140848802915,
+                  "lng" : -50.6003333302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "958b90e483529bf58b2e81a3200d3faf806a7691",
+         "name" : "D'gust Lanchonete e Pastelaria",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 720,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108219818786304601606/photos\"\u003elucenir borges\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAzUWtBT1aI6PuGJ_oJcGTpdkIxsg9lt7xay90c84srvzNsmZVxoNl3iU-Teo96QzOdzOXhiTcTine6hqvRFVeWvqiuT0L2Ctp9VZXFVagbgakCrkmkzdbiS0gQ5CfJp5hEhAx1bONg2j9q3g1hV3WReNPGhRmZpqx-4dkCouJTbyZNXe6BDv74A",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJhWIngCkqYJMRkoofzDoPsdY",
+         "plus_code" : {
+            "compound_code" : "5CP2+W9 Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CP2+W9"
+         },
+         "reference" : "CmRSAAAArGSUCTcAvLoEFWbkgvJ9RpP1say51y9hVV5MM0bBDJrVBVYNSCqpJE-2qUitLicxukIa2nATqJ6I-M50HrGSxL4OYTjTVMVp_DxqkRZSFYEsHh7TgHf4Ib-ga-liu_0kEhCfopdVxL1QBmtlOmVISWFSGhTWt53w5Ye0ccs2p9CELapmdH2h_A",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Paulo Lopes - Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8116333,
+               "lng" : -50.5977263
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.8103567697085,
+                  "lng" : -50.5963227197085
+               },
+               "southwest" : {
+                  "lat" : -17.8130547302915,
+                  "lng" : -50.5990206802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "47bc4c367db7a7b38bacc5dcc2f450c2a78e5fb0",
+         "name" : "Lanchonete D'gust Lanches",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 720,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104225061651552297740/photos\"\u003eRayssa Gomes Borges\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAtJN-TyD0rgPBB6PdaJ-W1mBLLFGAHVWXYCAi61ycINCn1N73QQOQal3HmFCJ6mJCLFGf50Sae6CuR32ZAL-8zNPR-4GY34NL6UqMJGw17f8yD_sB_bGlXwXVaP0Du6zuEhCSFFxQLnzdIwRYYJS3udIuGhTDuCPMcOfeOTufC1KyiMrahTCGRQ",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJGVNZPSoqYJMRhj-ZX_QA3DE",
+         "plus_code" : {
+            "compound_code" : "5CQ2+8W Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CQ2+8W"
+         },
+         "reference" : "CmRRAAAA7Dbnoy8ScMR9o2_N9zfaiVYJ_XHbCghoo0af6icNVB9hTGEcLq1tpE4P_2sSFQtoVZ3LTtialXzwKfV48ROd7Wi-J4Wy84PkRuerfrwypipAON7TvhrcYnDbfm_7zs-dEhAOzOBCcDnU5aujJHlzQl8eGhRuZ-2sg8x8JIJWRsTnoDz_Uc47cQ",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Paulo Lopes, 382 - Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8131785,
+               "lng" : -50.5994479
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.8118273197085,
+                  "lng" : -50.5980958197085
+               },
+               "southwest" : {
+                  "lat" : -17.81452528029151,
+                  "lng" : -50.60079378029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "74757aa9e5098e9ee259844b6ff407a465a7b4eb",
+         "name" : "Fino Sabor",
+         "photos" : [
+            {
+               "height" : 4608,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108909290836900299048/photos\"\u003eRider Carlos F. Sateles\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAM-v5qa5vAgPSjVqRGfG-7Jst83DusKVqVybe_F-9ApfvJC8Mj8Mz-NDJJyJxbnuAxoweC5w3v3PCdFGHu96FZMTE6cxFr7VG4fXIuk_aw_7uzCjZZ9JMwEvLVzfnU0n0EhDoWP5B-839aNd1bGJ7khT5GhRO63gOpXmZu1o8UMVie1AHuffm-w",
+               "width" : 3456
+            }
+         ],
+         "place_id" : "ChIJ-2BNeikqYJMRauLpwkg-avU",
+         "plus_code" : {
+            "compound_code" : "5CP2+P6 Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CP2+P6"
+         },
+         "reference" : "CmRSAAAAx6Vu58rXltgf0I3WmnGOXQzP-3CCYH7k8OMxObUqw7Cu-eTl1WYmTQMKwN_zdYt955afitWprPfZ9IqemkOnqwiiA5q1sWbOma_s_i4b92AKU-pI3Dk5LjS0R5_Sg9aYEhCKU1eo3U9MZe6dezZYoBibGhR6R9Iv8kd87qJtlBn6Yn5rdsG1Gw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Rua José Antônio da Silveira Leão, 427-535 - Centro, Santa Helena de Goiás"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -17.8112137,
+               "lng" : -50.59689329999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.8098802197085,
+                  "lng" : -50.5955323697085
+               },
+               "southwest" : {
+                  "lat" : -17.8125781802915,
+                  "lng" : -50.5982303302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "7c833a6eedaf37402da9ed61df208bed1a8ba05b",
+         "name" : "RESTAURANTE CAICÓ",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2048,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104952049252287274433/photos\"\u003eCLÁUDIA RODRIGUES DE OLIVEIRA\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAtrgPZEDYfhd-ReN7QbeLryswfiaXwW0sPPAkgg0hPjka6kQ7KZsTbP4IGVN4p8UjjwBQKeyjA9lx2zxwYkpOU9RA062Y0WzbxEVT1ecVUeh2Gyx8GbX2NNJ6MTk-BJWDEhBVTzFpgskmZBFj60zCuYPNGhTazIXq4yqH5L4dtAvw8_YChNE8IQ",
+               "width" : 1536
+            }
+         ],
+         "place_id" : "ChIJWXWHDioqYJMRP9_TMXohFZs",
+         "plus_code" : {
+            "compound_code" : "5CQ3+G6 Santa Helena de Goiás, State of Goiás, Brazil",
+            "global_code" : "58JF5CQ3+G6"
+         },
+         "rating" : 4,
+         "reference" : "CmRSAAAASXczQzWvseg1PjBWz1FCzgqa2czNg0Glt0voXyQWgjGPWOuqm-DJejtQZzDVrWZPSkd4nepEutDR7XS1G1W8fl-MEWizOCrxY1WfejRiLrPavBDy7OOiFqPPWIcc8y1jEhANtgY66CpE9HCejW5ov9FcGhQ9BtGyzJ8UQazzVoa5CKCr54MbAw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Paulo Lopes, 284 - Centro, Santa Helena de Goiás"
+      }
+   ],
+   "status" : "OK"
+}
