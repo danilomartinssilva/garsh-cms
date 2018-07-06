@@ -13,3 +13,4 @@ const firebaseApp = {
 
   export const database = firebase.database().ref('allphones');
   export const configStorage = firebase.storage().ref('banners');
+  console.log(process);

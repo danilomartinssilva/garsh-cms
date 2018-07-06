@@ -39,7 +39,7 @@ export default class Edit extends Component{
                 adr_address:data.val().result.formatted_address ? data.val().result.formatted_address : data.val().result.adr_address,              
                 banner:data.val().result.banner,     
                 socialNet:data.val().result.socialNet ? data.val().result.socialNet : '',
-                downloadUrl:data.val().result.downloadUrl 
+                downloadUrl:data.val().result.downloadUrl ? data.val().result.downloadUrl : ''
             }) 
         })
     }
@@ -59,6 +59,7 @@ export default class Edit extends Component{
                 }
             }
         const save = await database.child(this.state.id).update(data);
+        database.child(this.state.id).push();
         this.onClearFields();
     }
     onChangeValues=(e)=>{
@@ -142,7 +143,7 @@ export default class Edit extends Component{
             </div>
             <div className="form-group">
             <label  htmlFor="imgBanner">Banner</label>
-            <input  type="file" value={this.state.imgBanner}
+            <input  type="file" accept="image/*"
             onChange={(event)=> { 
                 this.fileChangeHandler(event)                 
            }}
@@ -151,6 +152,7 @@ export default class Edit extends Component{
             <div className="alert alert-danger" style={{display:this.state.uploadLoading ? 'block' : 'none'}}>
                 Enviando arquivo {this.state.uploadValue}%
             </div>
+            
             <div className="form-group">
             <label htmlFor="formatted_phone_number">Celular</label>
             <input required  ref="formatted_phone_number"

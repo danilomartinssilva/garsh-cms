@@ -20,12 +20,13 @@ export default class List extends Component{
                 items.push({...r.val(),key:r.key})                
 
             })
-
+            console.log(items);
             this.setState({
                 companies:items,
                 companyLoading:false
             })             
         }) 
+        
         
     }
     deleteCompany=(key)=>{
@@ -48,6 +49,7 @@ export default class List extends Component{
         else if(companies.length){
             
             companyList = <div>
+      
           <table className="table">
             <thead className="thead-light">
               <tr>               
@@ -55,28 +57,27 @@ export default class List extends Component{
                 <th scope="col">Endereço</th>
                 <th scope="col">Telefone</th>     
                 <th scope="col">Banner</th>
-                <th scope="col">Ver </th>
+                <th scope="col">Editar </th>
                 <th scope="col">Ação</th>
                 <th scope="col">Adicionar Imagem</th>
               </tr>
             </thead>
             <tbody >
+            
                 {companies.map(company=>(
-                    <tr key = {company.key}>               
+                    <tr key = {company.key}> 
                     <td scope="col">{company.result.name}</td>
                     <td scope="col">{company.result.formatted_address ? company.result.formatted_address : company.result.adr_address  } </td>
                     <td scope="col">{company.result.formatted_phone_number}</td>                                                  
-                    <td scope="col">{company.banner ? "Sim" : "Não"}</td>                    
+                    <td scope="col">{company.result.banner ? "Sim" : "Não"}</td>                    
                     <td scope="col">
-                    <Link to ={`/company/${company.key}`} className="btn btn-primary">Ver +</Link>                    
+                    <Link to ={`/company/${company.key}`} className="btn btn-primary">Editar</Link>                    
                     </td>                    
                     <td scope="col">
                      <a href="javascript:;" className="btn btn-danger" onClick={()=>this.deleteCompany(company.key)}>Excluir</a>                                                              
                      </td>                    
-                     <td>
-                     <a href=""  className="btn btn-success">
-                        Adicionar Imagem
-                     </a>                     
+                     <td>   
+                     <a target="_blank" href={company.result.downloadUrl ? company.result.downloadUrl : ''} className="btn btn-success">Ver Imagem</a>                                                              
                      </td>
                   </tr>
                 ))}

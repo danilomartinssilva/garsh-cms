@@ -137,7 +137,7 @@ export default class Add extends Component{
             </div>
             <div className="form-group">
             <label  htmlFor="imgBanner">Banner</label>
-            <input  type="file" id="imgBanner"
+            <input  type="file" id="imgBanner" accept="image/*"
             onChange={(event)=> { 
                 this.fileChangeHandler(event)                 
            }}
@@ -146,6 +146,9 @@ export default class Add extends Component{
             <div className="alert alert-danger" style={{display:this.state.uploadLoading ? 'block' : 'none'}}>
                 Enviando arquivo {this.state.uploadValue}%
             </div>
+
+            
+            
             <div className="form-group">
             <label htmlFor="formatted_phone_number">Celular</label>
             <input required  ref="formatted_phone_number"
