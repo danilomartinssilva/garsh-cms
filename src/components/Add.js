@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import { database,configStorage } from '../config/base';
 import { storage } from 'firebase';
-
+import {categories } from '../config/categories';
 export default class Add extends Component{
   constructor(props){
       super(props);
@@ -18,6 +18,7 @@ export default class Add extends Component{
                  uploadLoading:false,
                  uploadValue:'',
                  downloadUrl:'',
+                 category:""
                  
              }      
     fileChangeHandler= (event)=>{
@@ -37,7 +38,7 @@ export default class Add extends Component{
     }
     onSaveOnlyValues= async ()=>{
         const {name,adr_address,banner,socialNet,
-            downloadUrl,formatted_phone_number} = this.state;
+            downloadUrl,formatted_phone_number,category} = this.state;
             const data = {
                 result:{
                     name:name,
@@ -45,7 +46,9 @@ export default class Add extends Component{
                     downloadUrl:downloadUrl,
                     banner:false,
                     socialNet:socialNet,
-                    formatted_phone_number:formatted_phone_number
+                    formatted_phone_number:formatted_phone_number,
+                    category:category
+
                 }
             }
         const save = await database.push(data);
@@ -69,19 +72,27 @@ export default class Add extends Component{
             uploadLoading:'',
             uploadValue:'',
             downloadUrl:'',
+            category:''
         })
         document.getElementById("imgBanner").value = '';
     }
     validateFields=()=>{
         const {name,adr_address
-            ,formatted_phone_number} = this.state;
+            ,formatted_phone_number,category} = this.state;
             return true ? !name.trim() ||
-            !adr_address.trim() ||
+            !adr_address.trim() || !category.trim() ||
              !formatted_phone_number.trim() : false;
     }
     componentWillMount(){
         database.onDisconnect();
     }
+    selectChange=(event)=>{
+        this.setState({
+            category:event.target.value
+        })
+        console.log(this.state);
+    }
+
      saveImage(){
          if(!this.state.imgBanner){
              this.onSaveOnlyValues();
@@ -106,14 +117,15 @@ export default class Add extends Component{
                              uploadValue:100
                          });
                          const {name,adr_address,banner,
-                             formatted_phone_number,socialNet} = this.state;
+                             formatted_phone_number,socialNet,category} = this.state;
                              const data = {
                                  result:{
                                      name:name,adr_address:adr_address,
                                      downloadUrl:url,
                                      formatted_phone_number:formatted_phone_number,
                                      banner:true,
-                                     socialNet:socialNet
+                                     socialNet:socialNet,
+                                     category:category
                                  }
                              }
                          const save = database.push(data);
@@ -121,7 +133,6 @@ export default class Add extends Component{
                         
                      })
                  })
-                 
          }
     }
 
@@ -146,14 +157,21 @@ export default class Add extends Component{
             <div className="alert alert-danger" style={{display:this.state.uploadLoading ? 'block' : 'none'}}>
                 Enviando arquivo {this.state.uploadValue}%
             </div>
-
-            
             
             <div className="form-group">
-            <label htmlFor="formatted_phone_number">Celular</label>
+            <label htmlFor="formatted_phone_number">Telefone</label>
             <input required  ref="formatted_phone_number"
              value={this.state.formatted_phone_number} 
              onChange = {(formatted_phone_number)=>this.onChangeValues(formatted_phone_number)} type="tel" className="form-control" id="formatted_phone_number" placeholder="Celular"/>
+            </div>
+            <div className="form-group">
+            <label htmlFor="formatted_phone_number">Categoria</label>
+            <select className="form-control" name="category" value = {this.state.category} onChange={this.selectChange}>
+               {categories.map((e,key)=>{
+                   return <option key={key} value = {e.category}>{e.category}</option>
+               })} 
+            </select>
+            
             </div>
             
             <div className="form-group">

@@ -2,12 +2,16 @@ import React, { Component } from 'react';
 
 import { database,configStorage } from '../config/base';
 import { storage } from 'firebase';
+import { categories } from '../config/categories';
 
 export default class Edit extends Component{
   constructor(props){
       super(props);
       this.onSave = this.onSave.bind(this);
   }
+    componentWillMount(){
+        database.onDisconnect();
+    }
         state = {       
                 id:'',                 
                 name:'',
@@ -19,6 +23,7 @@ export default class Edit extends Component{
                 uploadLoading:false,
                 uploadValue:'',
                 downloadUrl:'',
+                category:''
                 
             }      
     fileChangeHandler= (event)=>{
@@ -28,6 +33,7 @@ export default class Edit extends Component{
             'banner':true ? file : false
         })             
     }
+    
     componentDidMount(){
         const {key} = this.props.match.params;        
         database.child(key).on('value',(data)=>{  
@@ -39,7 +45,9 @@ export default class Edit extends Component{
                 adr_address:data.val().result.formatted_address ? data.val().result.formatted_address : data.val().result.adr_address,              
                 banner:data.val().result.banner,     
                 socialNet:data.val().result.socialNet ? data.val().result.socialNet : '',
-                downloadUrl:data.val().result.downloadUrl ? data.val().result.downloadUrl : ''
+                downloadUrl:data.val().result.downloadUrl ? data.val().result.downloadUrl : '',
+                category:data.val().result.category ? data.val().result.category : '',
+                
             }) 
         })
     }
@@ -49,12 +57,13 @@ export default class Edit extends Component{
     }
     onSaveOnlyValues= async ()=>{
         const {name,adr_address,banner,
-            downloadUrl,formatted_phone_number} = this.state;
+            downloadUrl,formatted_phone_number,category} = this.state;
             const data = {
                 result:{
                     name:name,adr_address:adr_address,
                     downloadUrl:downloadUrl,
                     banner:false,
+                    category:category,
                     formatted_phone_number:formatted_phone_number
                 }
             }
@@ -67,6 +76,12 @@ export default class Edit extends Component{
             [e.target.id]:e.target.value
         })
         
+    }
+    selectChange=(event)=>{
+        this.setState({
+            category:event.target.value
+        })
+        console.log(this.state);
     }
     onClearFields=()=>{
         this.setState({
@@ -112,14 +127,15 @@ export default class Edit extends Component{
                              uploadValue:100
                          });
                          const {name,adr_address,banner,
-                             formatted_phone_number,socialNet} = this.state;
+                             formatted_phone_number,socialNet,category} = this.state;
                              const data = {
                                  result:{
                                      name:name,adr_address:adr_address,
                                      downloadUrl:url,
                                      formatted_phone_number:formatted_phone_number,
                                      banner:true,
-                                     socialNet:socialNet
+                                     socialNet:socialNet,
+                                     category:category
                                  }
                              }
                          const save = database.child(this.state.id).update(data);
@@ -158,6 +174,16 @@ export default class Edit extends Component{
             <input required  ref="formatted_phone_number"
              value={this.state.formatted_phone_number} 
              onChange = {(formatted_phone_number)=>this.onChangeValues(formatted_phone_number)} type="tel" className="form-control" id="formatted_phone_number" placeholder="Celular"/>
+            </div>
+            <div className="form-group">
+            <label htmlFor="category">Categoria</label>
+            <select className="form-control" name="category" value = {this.state.category} onChange={this.selectChange}>
+               {categories.map((e,key)=>{
+                   var selected = (e.category===this.state.category) ? 'selected' : 'false';                  
+                   return <option key={key}  selected = {selected}  value = {e.category}>{e.category}</option>
+               })} 
+            </select>
+            
             </div>
             
             <div className="form-group">

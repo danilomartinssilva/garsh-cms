@@ -3,7 +3,6 @@ import { database } from '../config/base';
 import {InfoCompany} from './InfoCompany';
 import {Link } from 'react-router-dom';
 
-
 export default class List extends Component{
     constructor(props){
         super(props);
@@ -56,6 +55,7 @@ export default class List extends Component{
                 <th scope="col">Empresa</th>
                 <th scope="col">Endereço</th>
                 <th scope="col">Telefone</th>     
+                <th scope="col">Categoria</th>     
                 <th scope="col">Banner</th>
                 <th scope="col">Editar </th>
                 <th scope="col">Ação</th>
@@ -69,6 +69,7 @@ export default class List extends Component{
                     <td scope="col">{company.result.name}</td>
                     <td scope="col">{company.result.formatted_address ? company.result.formatted_address : company.result.adr_address  } </td>
                     <td scope="col">{company.result.formatted_phone_number}</td>                                                  
+                    <td scope="col">{company.result.category ? company.result.category : ''}</td>                                                  
                     <td scope="col">{company.result.banner ? "Sim" : "Não"}</td>                    
                     <td scope="col">
                     <Link to ={`/company/${company.key}`} className="btn btn-primary">Editar</Link>                    
