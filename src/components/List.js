@@ -53,6 +53,7 @@ export default class List extends Component{
             <thead className="thead-light">
               <tr>               
                 <th scope="col">Empresa</th>
+                <th scope="col">Perfil</th>
                 <th scope="col">Endereço</th>
                 <th scope="col">Telefone</th>     
                 <th scope="col">Categoria</th>     
@@ -67,6 +68,7 @@ export default class List extends Component{
                 {companies.map(company=>(
                     <tr key = {company.key}> 
                     <td scope="col">{company.result.name}</td>
+                    <td scope="col">{company.result.profile ? company.result.profile : ''}</td>
                     <td scope="col">{company.result.formatted_address ? company.result.formatted_address : company.result.adr_address  } </td>
                     <td scope="col">{company.result.formatted_phone_number}</td>                                                  
                     <td scope="col">{company.result.category ? company.result.category : ''}</td>                                                  

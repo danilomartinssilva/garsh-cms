@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { database,configStorage } from '../config/base';
 import { storage } from 'firebase';
 import { categories } from '../config/categories';
+import { profile } from '../config/profile';
 
 export default class Edit extends Component{
   constructor(props){
@@ -25,7 +26,8 @@ export default class Edit extends Component{
                 downloadUrl:'',
                 category:'',
                 latitude:'',
-                longitude:''
+                longitude:'',
+                profile:''
                 
             }      
     fileChangeHandler= (event)=>{
@@ -50,7 +52,8 @@ export default class Edit extends Component{
                 downloadUrl:data.val().result.downloadUrl ? data.val().result.downloadUrl : '',
                 category:data.val().result.category ? data.val().result.category : '',
                 latitude:data.val().result.latitude ? data.val().result.latitude : '' ,
-                longitude:data.val().result.longitude ? data.val().result.longitude : '' 
+                longitude:data.val().result.longitude ? data.val().result.longitude : '',
+                profile:data.val().result.profile ? data.val().result.profile : '' 
                 
             }) 
         })
@@ -61,7 +64,7 @@ export default class Edit extends Component{
     }
     onSaveOnlyValues= async ()=>{
         const {name,adr_address,banner,
-            downloadUrl,formatted_phone_number,category,latitude,longitude} = this.state;
+            downloadUrl,formatted_phone_number,category,latitude,longitude,profile} = this.state;
             const data = {
                 result:{
                     name:name,adr_address:adr_address,
@@ -70,7 +73,9 @@ export default class Edit extends Component{
                     category:category,
                     formatted_phone_number:formatted_phone_number,
                     latitude:latitude,
-                    longitude:longitude
+                    longitude:longitude,
+                    profile:profile
+
                 }
             }
         const save = await database.child(this.state.id).update(data);
@@ -83,9 +88,15 @@ export default class Edit extends Component{
         })
         
     }
-    selectChange=(event)=>{
+    selectChangeCategory=(event)=>{
         this.setState({
             category:event.target.value
+        })
+        console.log(this.state);
+    }
+    selectChangeProfile=(event)=>{
+        this.setState({
+            profile:event.target.value
         })
         console.log(this.state);
     }
@@ -102,6 +113,7 @@ export default class Edit extends Component{
             downloadUrl:'',
             latitude:'',
             longitude:''
+            
         })
     }
     validateFields=()=>{
@@ -135,7 +147,7 @@ export default class Edit extends Component{
                              uploadValue:100
                          });
                          const {name,adr_address,banner,
-                             formatted_phone_number,socialNet,category,latitude,longitude} = this.state;
+                             formatted_phone_number,socialNet,category,latitude,longitude,profile} = this.state;
                              const data = {
                                  result:{
                                      name:name,adr_address:adr_address,
@@ -145,7 +157,8 @@ export default class Edit extends Component{
                                      socialNet:socialNet,
                                      category:category,
                                      latitude:latitude,
-                                     longitude:longitude
+                                     longitude:longitude,
+                                     profile:profile
                                  }
                              }
                          const save = database.child(this.state.id).update(data);
@@ -187,10 +200,20 @@ export default class Edit extends Component{
             </div>
             <div className="form-group">
             <label htmlFor="category">Categoria</label>
-            <select className="form-control" name="category" value = {this.state.category} onChange={this.selectChange}>
+            <select className="form-control" name="category" value = {this.state.category} onChange={this.selectChangeCategory}>
                {categories.map((e,key)=>{
                    var selected = (e.category===this.state.category) ? 'selected' : 'false';                  
                    return <option key={key}  selected = {selected}  value = {e.category}>{e.category}</option>
+               })} 
+            </select>
+            
+            </div>
+            <div className="form-group">
+            <label htmlFor="profile">Perfil</label>
+            <select className="form-control" name="profile" value = {this.state.profile} onChange={this.selectChangeProfile}>
+               {profile.map((e,key)=>{
+                   var selected = (e===this.state.profile) ? 'selected' : 'false';                  
+                   return <option key={key}  selected = {selected}  value = {e}>{e}</option>
                })} 
             </select>
             

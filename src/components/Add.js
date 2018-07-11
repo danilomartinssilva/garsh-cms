@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 import { database,configStorage } from '../config/base';
 import { storage } from 'firebase';
 import {categories } from '../config/categories';
+import {profile} from '../config/profile';
 
-const profile = ['default','premium'];
 export default class Add extends Component{
   constructor(props){
       super(props);
