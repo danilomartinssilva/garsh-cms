@@ -5,5 +5,5 @@ export const categories = [
     {type:'listel',category:'Eletrônicos'},
     {type:'listel',category:'Lanchonetes'},
     {type:'listel',category:'Supermecados'}
-
+    
  ];

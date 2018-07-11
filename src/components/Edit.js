@@ -23,7 +23,9 @@ export default class Edit extends Component{
                 uploadLoading:false,
                 uploadValue:'',
                 downloadUrl:'',
-                category:''
+                category:'',
+                latitude:'',
+                longitude:''
                 
             }      
     fileChangeHandler= (event)=>{
@@ -47,6 +49,8 @@ export default class Edit extends Component{
                 socialNet:data.val().result.socialNet ? data.val().result.socialNet : '',
                 downloadUrl:data.val().result.downloadUrl ? data.val().result.downloadUrl : '',
                 category:data.val().result.category ? data.val().result.category : '',
+                latitude:data.val().result.latitude ? data.val().result.latitude : '' ,
+                longitude:data.val().result.longitude ? data.val().result.longitude : '' 
                 
             }) 
         })
@@ -57,14 +61,16 @@ export default class Edit extends Component{
     }
     onSaveOnlyValues= async ()=>{
         const {name,adr_address,banner,
-            downloadUrl,formatted_phone_number,category} = this.state;
+            downloadUrl,formatted_phone_number,category,latitude,longitude} = this.state;
             const data = {
                 result:{
                     name:name,adr_address:adr_address,
                     downloadUrl:downloadUrl,
                     banner:false,
                     category:category,
-                    formatted_phone_number:formatted_phone_number
+                    formatted_phone_number:formatted_phone_number,
+                    latitude:latitude,
+                    longitude:longitude
                 }
             }
         const save = await database.child(this.state.id).update(data);
@@ -94,6 +100,8 @@ export default class Edit extends Component{
             uploadLoading:'',
             uploadValue:'',
             downloadUrl:'',
+            latitude:'',
+            longitude:''
         })
     }
     validateFields=()=>{
@@ -127,7 +135,7 @@ export default class Edit extends Component{
                              uploadValue:100
                          });
                          const {name,adr_address,banner,
-                             formatted_phone_number,socialNet,category} = this.state;
+                             formatted_phone_number,socialNet,category,latitude,longitude} = this.state;
                              const data = {
                                  result:{
                                      name:name,adr_address:adr_address,
@@ -135,7 +143,9 @@ export default class Edit extends Component{
                                      formatted_phone_number:formatted_phone_number,
                                      banner:true,
                                      socialNet:socialNet,
-                                     category:category
+                                     category:category,
+                                     latitude:latitude,
+                                     longitude:longitude
                                  }
                              }
                          const save = database.child(this.state.id).update(data);
@@ -194,6 +204,20 @@ export default class Edit extends Component{
              id="adr_address" name="adr_address" 
              value={this.state.adr_address}/>
             </div>
+            <div className="form-group">
+            <label  htmlFor="latitude">Latitude</label>
+            <input required  ref="socialNet" type="text" 
+            onChange = {(latitude)=>this.onChangeValues(latitude)}
+            className="form-control" id="latitude"
+            value={this.state.latitude}/>
+            </div>
+            <div className="form-group">
+            <label  htmlFor="longitude">Longitude</label>
+            <input required  ref="longitude" type="text" 
+            onChange = {(longitude)=>this.onChangeValues(longitude)}
+            className="form-control" id="longitude"
+            value={this.state.longitude}/>
+        </div>
             <div className="form-group">
             <label  htmlFor="socialNet">Rede social</label>
             <input required  ref="socialNet" type="text" 
